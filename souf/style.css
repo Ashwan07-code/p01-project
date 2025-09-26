@@ -1,21 +1,55 @@
 * body {
   background-color: grey;
+background-image: url('/souf/img/ferrarri.gif');
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .knoppen {
-    border: 5px solid white;
-
+   
     text-align: center;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
-    
-text-align: center;
-}
-h1{
-    text-align: center;
    
 }
-p{
+ 
+h1 {
+    font-style:oblique;
     text-align: center;
+    color: rgb(125, 125, 126);
+    border: 1px solid white;
+    background-color: white;
+}
+ 
+p {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+ 
+.vraag {
+    font-style: oblique;
+    text-align: center;
+    color: white;
+}
+ 
+.antwoord-btn {
+    border-radius: 8px;
+}
+.volgendeKnop{
+    text-align: right;
+}
+.controleren{
+    text-align: right   ;
+}
+h2 {
+    font-style:oblique;
+    text-align: center;
+    color: rgb(255, 255, 255);    
+}
+h3 {
+ font-style:oblique;
+    text-align: center;
+    color: rgb(255, 255, 255);  
 }
