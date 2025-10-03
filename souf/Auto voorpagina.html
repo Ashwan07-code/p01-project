@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soufiane</title>
-</head> <link rel="stylesheet" href="style.css">
-<body>
-      <h1> Welkom bij de Auto Quizzzzz!!! </h1>
-      <h2> Vraag 1! </h2> 
-      <h3> Wat is een SUV?</h3>
 
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <h1>QUIZ</h1>
+  <div class="vraag">
+    <h2>vraag</h2>
+    <div id="quiz-container">
+      <p id="vraag"></p>
       <div class="knoppen">
-        <button type="button">A Een sportfiets</button>
-        <br>
-          <br>
-        <button type="button">B Een grote auto met veel ruimte </button>
-        <br>
-            <br>
-        <button type="button">C Een racewagen </button>
-        <br>
-             <br>
-        <button type="button">D Een kleine stadsauto </button>
+        <button type="button" class="antwoord-btn">A</button>
+        <button type="button" class="antwoord-btn">B</button>
+        <button type="button" class="antwoord-btn">C</button>
+        <button type="button" class="antwoord-btn">D</button>
+      </div>
     </div>
-    <img src="auto.jpg" alt="" sizes="" srcset="" class="auto">
-    
+
+    <p id="score">Score: 0/20</p>
+
+    <div class="volgendeKnop">
+      <div class="controleren">
+        <button type="button" id="controleerBtn">Controleer Antwoord</button>
+        <button type="button" id="volgendeBtn">Volgende</button>
+      </div>
     </div>
-    <p>score 0/20</p>
-   
-    <div class="volgendeKnop">  <div class="controleren">
-    <button type="button">Controleer Antwoord</button>
-    <button type="button">volgende</button>  
-    </div>                                      </div>
-</body> 
+    <script src="script.js"></script>
+
+
+</body>
+
 </html>
