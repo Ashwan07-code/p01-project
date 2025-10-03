@@ -1,0 +1,63 @@
+body {
+    background-image: url("/img/plane\ 2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.knoppen {
+   
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+   
+}
+ 
+h1 {
+    font-style:oblique;
+    text-align: center;
+    color: rgb(48, 47, 46);
+
+    
+}
+ h2{
+    
+    color:rgb(48, 47, 46);
+ }
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+ 
+.vraag {
+    font-style: oblique;
+    text-align: center;
+    color: white;
+}
+ 
+.antwoord-btn {
+    border-radius: 8px;
+}
+.volgendeKnop{
+    text-align: right;
+}
+.controleren{
+    text-align: right   ;
+}
+.antwoord-btn {
+     padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.antwoord-btn.groen {
+    background-color: #4CAF50; /* groen */
+    color: white;
+}
+
+.antwoord-btn.rood {
+    background-color: #f44336; /* rood */
+    color: white;
+}
+
