@@ -52,13 +52,17 @@ p {
     cursor: pointer;
 }
 .antwoord-btn.groen {
-    background-color: #4CAF50; /* groen */
+    background-color: #4CAF50 !important; /* groen */
     color: white;
 }
  
 .antwoord-btn.rood {
-    background-color: #f44336; /* rood */
+    background-color: #f44336 !important; /* rood */
     color: white;
 }
- 
+.antwoord-btn.geselecteerd {
+    background-color: #8a8d90; /* blauw */
+    color: white;
+    border: 2px solid #8e9295;
+}
  
