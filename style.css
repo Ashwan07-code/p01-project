@@ -5,19 +5,19 @@ body {
 }
 
 .knoppen {
-   
+
+ 
     text-align: center;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
-   
-}
  
+} 
 h1 {
     font-style:oblique;
     text-align: center;
     color: rgb(48, 47, 46);
-
+font-weight: bold;
     
 }
  h2{
@@ -34,6 +34,7 @@ p {
     font-style: oblique;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
  
 .antwoord-btn {
@@ -52,12 +53,41 @@ p {
     cursor: pointer;
 }
 .antwoord-btn.groen {
-    background-color: #4CAF50; /* groen */
+    background-color: #4CAF50 !important; 
     color: white;
 }
 
 .antwoord-btn.rood {
-    background-color: #f44336; /* rood */
+    background-color: #f44336 !important; 
     color: white;
 }
+.antwoord-btn.geselecteerd {
+    background-color: #8a8d90;
 
+}
+#autoCorrectBtn {
+    display: block;
+    margin: 20px auto; 
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px; 
+    background-color: #777777;
+    color: white;
+    border: none;
+}
+#herstartBtn {
+    display: block;
+    margin: 20px auto; 
+    padding: 12px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px; 
+    background-color: #777777;
+    color: white;
+border: none;
+}
+.antwoord-btn:hover {
+    transform: scale(1.05); 
+    background-color: #a09d9d; 
+}
