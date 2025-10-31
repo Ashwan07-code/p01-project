@@ -1,36 +1,97 @@
-*{
-    background-color: gray  ;
+body {
+    background-color: gray;
+    background-image: url('/Ashwan/img/motor.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-body{
-    background-color: gray  ;
- 
-}
- 
- 
+
 .knoppen {
-text-align: center; 
-border: 6px solid white;
-border-width: 20;
-text-align: center;
+    text-align: center;
+    border: 6px solid white;
+    border-width: 200;
+    text-align: center;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
- 
-}
-h1{
-    text-align: center;
-    color: aliceblue;
-   
-}
-p{
-    text-align: center;
-    color: aliceblue;
-    
+    height: 400px;
+    width: 1000px;
+
+
+
+
 }
 
-button{
-
+h1 {
+    text-align: center;
     color: aliceblue;
+
 }
+
+p {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+button {
+    color: black;
+}
+
+.volgende {
+    text-align: right;
+    width: 1900px;
+
+}
+
+
+.geselecteerd {
+    background-color: rgb(11, 182, 208);
+}
+
+
+.div {
+    text-align: center;
+}
+
+.antwoord-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.antwoord-btn.groen {
+    background-color: #4CAF50;
+    /* groen */
+    color: white;
+}
+
+.antwoord-btn.rood {
+    background-color: #f44336;
+    /* rood */
+    color: white;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#spelerNaam {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.title {
+    text-align: center;
+    color: white;
+}
+
