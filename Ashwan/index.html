@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soufiane</title>
-</head> <link rel="stylesheet" href="style.css">
+    <title>power up </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
+
+    <div id="start-scherm">
+        <h2>Welkom bij de Motor Quiz!</h2>
     
+        <input type="text" id="spelerNaam" placeholder="Jouw naam">
+       
+    </div>
+
+    <div id="powerup-scherm" style="display: none;">
+        <h3>Hallo <span id="naamWeergave"></span>!</h3>
+        <p>Klik hieronder om je power-up te gebruiken:</p>
+        <button onclick="gebruikPowerUp()">Gebruik Power-up & start quiz</button>
+    </div>
+
+    <div class="Power-up">
+        <button  onclick="startQuiz()">startQuiz</button>
+    </div class="power-up">
+
+
+
+    <script src="main.js"></script>
 </body>
+
 </html>
