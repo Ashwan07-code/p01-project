@@ -1,17 +1,3 @@
-const quizCategorie = prompt("Welke quiz wilt u spelen? (1, 2, 3)");
-const quiz = parseInt(quizCategorie);
-console.log(quiz);
-
-if (quiz === 1) {
-  alert("Welkom bij quiz 1!");
-} else if (quiz === 2) {
-  alert("Welkom bij quiz 2!");
-} else if (quiz === 3) {
-  alert("Welkom bij quiz 3!");
-} else {
-  console.log("Die quiz bestaat niet!");
-}
-
 const vragen = [
   {
     vraag:
@@ -287,4 +273,3 @@ herstartBtn.addEventListener("click", () => {
 });
 
 laadVraag();
-

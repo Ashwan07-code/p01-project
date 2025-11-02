@@ -1,0 +1,47 @@
+body{
+background-color: #121212;
+}
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(189, 182, 182);
+}
+#QuizBtn1 {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: rgb(149, 149, 149);
+  border: none;
+  width: 500px;
+  transition: transform 0.25s, background-color 0.25s;
+}
+#QuizBtn2 {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 500px;
+  transition: transform 0.25s, background-color 0.25s;
+}
+#QuizBtn3 {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #0d00ff;
+  color: white;
+  border: none;
+  width: 500px;
+  transition: transform 0.25s, background-color 0.25s;
+}
