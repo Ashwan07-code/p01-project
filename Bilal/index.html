@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilal</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<h1>QUIZ</h1>
+
+<div id="quiz-container">
+    <div class="vraag">
+        <p id="vraag"></p>
+    </div>
+
+    <div class="knoppen">
+        <button type="button" class="antwoord-btn">A</button>
+        <button type="button" class="antwoord-btn">B</button>
+        <button type="button" class="antwoord-btn">C</button>
+        <button type="button" class="antwoord-btn">D</button>
+    </div>
+
+    <button id="autoCorrectBtn">Power-Up⚡</button>
+
+    <p id="score">Score: 0/20</p>
+
+    <div class="volgendeKnop">
+        <div class="controleren">
+            <button type="button" id="controleerBtn">Controleer Antwoord</button>
+            <button type="button" id="volgendeBtn">Volgende</button>
+        </div>
+    </div>
+</div>
+
+<div id="scoreboard" style="display:none; text-align:center; margin-top:20px;">
+    <h2>🎉 Quiz Klaar! 🎉</h2>
+    <p id="eindScore"></p>
+    <button id="herstartBtn">Herstart Quiz</button>
+</div>
 
 <script src="script.js"></script>
 </body>

@@ -1,0 +1,125 @@
+body {
+  background-image: url("/img/plane 2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.knoppen {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-style: oblique;
+  text-align: center;
+  color: rgb(48, 47, 46);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: rgb(48, 47, 46);
+}
+
+p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-style: oblique;
+}
+
+.vraag {
+  font-style: arial;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.antwoord-btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.antwoord-btn.groen {
+  background-color: #4caf50 !important;
+  color: white;
+}
+
+.antwoord-btn.rood {
+  background-color: #f44336 !important;
+  color: white;
+}
+
+.antwoord-btn.geselecteerd {
+  background-color: #8a8d90;
+}
+
+.antwoord-btn:hover {
+  transform: scale(1.05);
+  background-color: #a09d9d;
+}
+
+.volgendeKnop {
+  text-align: right;
+}
+
+.controleren {
+  text-align: right;
+}
+
+#controleerBtn,
+#volgendeBtn,
+#autoCorrectBtn {
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 20px;
+  background-color: #777777;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+
+#controleerBtn:hover,
+#volgendeBtn:hover,
+#autoCorrectBtn:hover {
+  transform: scale(1.05);
+  background-color: #6a6a6a;
+}
+
+#autoCorrectBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #777777;
+  color: white;
+  border: none;
+  width: 500px;
+  transition: transform 0.25s, background-color 0.25s;
+}
+
+#herstartBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  background-color: #777777;
+  color: white;
+  border: none;
+}
+
+#score {
+  font-family: Arial, Helvetica, sans-serif;
+}
