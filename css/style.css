@@ -64,3 +64,45 @@ h2 {
 #autoCorrectBtn {
 transition: transform 0.25s ease, background-color 0.25s ease;
 }
+input[type="text"],
+input[type="number"] {
+  display: block;
+  margin: 12px auto;
+  padding: 12px 16px;
+  width: 470px;
+  border-radius: 15px;
+  border: none;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+#verstuur {
+  display: block;
+  margin: 25px auto;
+  padding: 14px 28px;
+  width: 420px;
+  border: none;
+  border-radius: 20px;
+
+
+  
+  transition: all 0.3s ease;
+}
+
+#verstuur:hover {
+  transform: scale(1.05);
+  background-color: #ffffff;
+
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
