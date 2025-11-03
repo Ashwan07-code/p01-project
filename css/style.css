@@ -4,7 +4,7 @@ background-color: #121212;
 h2 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(189, 182, 182);
+  color: rgb(255, 255, 255);
 }
 #QuizBtn1 {
   display: block;
@@ -44,4 +44,23 @@ h2 {
   border: none;
   width: 500px;
   transition: transform 0.25s, background-color 0.25s;
+}
+
+
+#QuizBtn1:hover {
+  transform: scale(1.05);
+  background-color: #ffffff;
+}
+#QuizBtn2:hover {
+  transform: scale(1.05);
+  background-color: #ff0000;
+}
+#QuizBtn3:hover {
+  transform: scale(1.05);
+  background-color: #0400ff;
+}
+#controleerBtn,
+#volgendeBtn,
+#autoCorrectBtn {
+transition: transform 0.25s ease, background-color 0.25s ease;
 }
