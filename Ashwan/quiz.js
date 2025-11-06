@@ -258,7 +258,7 @@ function startQuiz() {
  document.addEventListener("keydown", function(event) {
 
       document.getElementById("output").textContent =
-        "Je drukte op: " + event.key;
+        "Je drukte op: power up " + event.key;
       
       
       if (event.key === "Enter") {
