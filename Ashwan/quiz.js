@@ -193,7 +193,7 @@ function laadVraag() {
     antwoordKnoppen.forEach((knop, index) => {
         knop.textContent = huidigeVraag.opties[index];
         knop.classList.remove("groen", "rood");
-        knop.disabled = false; 
+        knop.disabled = false;
     });
     geselecteerdAntwoord = null;
 }
@@ -202,14 +202,14 @@ function laadVraag() {
 antwoordKnoppen.forEach((knop, index) => {
     knop.addEventListener("click", () => {
         geselecteerdAntwoord = index;
-      
+
         antwoordKnoppen.forEach(k => k.classList.remove("geselecteerd"));
         knop.classList.add("geselecteerd");
     });
 });
 
 controleerBtn.addEventListener("click", () => {
-    if (geselecteerdAntwoord === null) return; 
+    if (geselecteerdAntwoord === null) return;
     const huidigeVraag = vragen[huidigeVraagIndex];
 
     antwoordKnoppen.forEach((knop, index) => {
@@ -241,52 +241,52 @@ volgendeBtn.addEventListener("click", () => {
         alert(`Quiz klaar! Je eindscore is ${score}/${vragen.length}`);
         window.location.href = "/Ashwan/klaar.html"
     }
-function startQuiz() {
-  const naam = document.getElementById('spelerNaam').value.trim();
+    function startQuiz() {
+        const naam = document.getElementById('spelerNaam').value.trim();
 
- if (!naam) {
-    alert('Vul alsjeblieft je naam in!');
-  } else {
-    alert('Welkom, ' + naam + '!  De quiz begint nu.');
-    window.location.href = "/Ashwan/quiz.html"
-  }
-}
+        if (!naam) {
+            alert('Vul alsjeblieft je naam in!');
+        } else {
+            alert('Welkom, ' + naam + '!  De quiz begint nu.');
+            window.location.href = "/Ashwan/quiz.html"
+        }
+    }
 
- 
+
 });
 
- document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
 
-      document.getElementById("output").textContent =
+    document.getElementById("output").textContent =
         "Je drukte op: power up " + event.key;
-      
-      
-      if (event.key === "Enter") {
+
+
+    if (event.key === "Enter") {
         console.log("Je drukte op Enter!");
-      } else if (event.key === "ArrowUp") {
+    } else if (event.key === "ArrowUp") {
         console.log("Pijl omhoog!");
-      }
-    });
+    }
+});
 
-    
 
-    let autoCorrectGebruikt = false;
+
+let autoCorrectGebruikt = false;
 
 autoCorrectBtn.addEventListener("click", () => {
-  if (autoCorrectGebruikt) return;
+    if (autoCorrectGebruikt) return;
 
-  const huidigeVraag = vragen[huidigeVraagIndex];
-  const juist = huidigeVraag.correct; 
+    const huidigeVraag = vragen[huidigeVraagIndex];
+    const juist = huidigeVraag.correct;
 
-  const antwoorden = document.querySelectorAll(".antwoord");
-
-
-  antwoorden[juist].style.backgroundColor = "limegreen";
+    const antwoorden = document.querySelectorAll(".antwoord");
 
 
-  autoCorrectGebruikt = true;
+    antwoorden[juist].style.backgroundColor = "limegreen";
+
+
+    autoCorrectGebruikt = true;
 });
 
-    laadVraag();
+laadVraag();
 
 
